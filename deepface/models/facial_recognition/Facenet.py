@@ -1666,7 +1666,7 @@ def load_facenet128d_model(
     model = InceptionResNetV1()
 
     weight_file = weight_utils.download_weights_if_necessary(
-        file_name="facenet_weights.h5", source_url=url
+        file_name="facenet_finetuned_firstrun_v1.keras", source_url=url
     )
     model = weight_utils.load_model_weights(
         model=model, weight_file=weight_file
