@@ -1654,7 +1654,7 @@ def InceptionResNetV1(dimension: int = 128) -> Model:
 
 
 def load_facenet128d_model(
-    url="https://github.com/serengil/deepface_models/releases/download/v1.0/facenet_weights.h5",
+    url="https://storage.googleapis.com/photo-search-bucket/Custom%20weights%20vivek/facenet_finetuned_firstrun_v1.keras",
 ) -> Model:
     """
     Construct FaceNet-128d model, download weights and then load weights
